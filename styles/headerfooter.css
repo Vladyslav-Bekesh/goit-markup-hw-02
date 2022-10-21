@@ -13,6 +13,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: #2196F3;
 }
 
@@ -23,6 +24,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: #000000;}
 
 .links-list {
@@ -44,7 +46,6 @@
 }
 
 .header-adress {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -62,5 +63,30 @@
 
 
 /* --------------------------FOOTER-------------------------- */
+.whole-bottom{
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: #2F303A;
+}
 
+.phisical-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 /* --------------------------FOOTER-------------------------- */
