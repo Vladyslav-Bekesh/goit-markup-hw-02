@@ -1,0 +1,66 @@
+/* --------------------------COMMON STYLES-------------------------- */
+.whole-page {
+    font-family: Roboto, sans-serif;
+}
+/* --------------------------COMMON STYLES-------------------------- */
+
+
+/* --------------------------HEADER-------------------------- */
+.Web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.Studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;}
+
+.links-list {
+    list-style: none;
+}
+
+.link-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.link-item:hover, .link-item:focus{
+    color: #2196F3;
+}
+
+.header-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.header-adress:hover, .header-adress:focus{
+    color: #2196F3;
+}
+/* --------------------------HEADER-------------------------- */
+
+
+
+/* --------------------------FOOTER-------------------------- */
+
+/* --------------------------FOOTER-------------------------- */
