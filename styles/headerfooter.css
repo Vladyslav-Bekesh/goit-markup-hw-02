@@ -1,19 +1,21 @@
-/* --------------------------COMMON STYLES-------------------------- */
-.whole-page {
+/* _________________________________________COMMON STYLES_________________________________________ */
+.whole-site {
     font-family: Roboto, sans-serif;
 }
-/* --------------------------COMMON STYLES-------------------------- */
+a {
+    text-decoration: none;
+}
+/* _________________________________________COMMON STYLES_________________________________________ */
 
 
-/* --------------------------HEADER-------------------------- */
+/* _________________________________________HEADER_________________________________________ */
 .Web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31/26);
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: #2196F3;
 }
 
@@ -22,9 +24,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31/26);
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: #000000;}
 
 .links-list {
@@ -35,7 +36,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #212121;
@@ -49,7 +50,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
@@ -58,11 +59,11 @@
 .header-adress:hover, .header-adress:focus{
     color: #2196F3;
 }
-/* --------------------------HEADER-------------------------- */
+/* _________________________________________HEADER_________________________________________ */
 
 
 
-/* --------------------------FOOTER-------------------------- */
+/* _________________________________________FOOTER_________________________________________ */
 .whole-bottom{
     width: 1600px;
     height: 252px;
@@ -75,7 +76,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: #FFFFFF;
 
@@ -85,8 +86,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-/* --------------------------FOOTER-------------------------- */
+/* _________________________________________FOOTER_________________________________________ */
