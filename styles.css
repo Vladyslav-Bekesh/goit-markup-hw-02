@@ -1,0 +1,303 @@
+/* ------------------------------------HEADER FOOTER------------------------------------ */
+
+/* COMMON STYLES */
+.whole-site {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* COMMON STYLES */
+
+
+/* HEADER */
+.Webstudio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+}
+
+.Web {
+    color: #2196F3;
+}
+
+.Studio-header {
+    color: #000000;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.link-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.link-item:hover, .link-item:focus {
+    color: #2196F3;
+}
+
+.header-adress {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.header-adress:hover,
+.header-adress:focus {
+    color: #2196F3;
+}
+
+/* HEADER */
+
+
+
+/* FOOTER */
+
+.Studio-footer {
+    color: #FFFFFF;
+}
+
+.whole-bottom {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: #2F303A;
+}
+
+.phisical-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* FOOTER */
+
+/* ------------------------------------HEADER FOOTER------------------------------------ */
+
+
+
+
+
+
+/* ------------------------------------MAIN PAGE------------------------------------ */
+
+/* HERO */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);   
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-button {
+/* btn */
+    width: 216px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+/* btn txt */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;   
+    color: #FFFFFF;
+/*  */
+    display: flex;
+    justify-content: center;
+}
+
+/* HERO */
+
+
+
+
+
+/* BENEFITS */
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-item {
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.benefits-title {
+    font-weight: 700;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    color: #212121;}
+
+.benefits {
+    font-weight: 400;
+    line-height: calc(24/14);   
+    color: #757575;
+}
+
+/* BENEFITS */
+
+
+
+
+
+/* RESPONSIBILITIES */
+
+/* .responsibilities {} */
+
+.responsibilities-list {
+    list-style: none;
+}
+
+/* .responsibilities-item {} */
+
+/* .our-team {} */
+
+/* RESPONSIBILITIES */
+
+
+
+
+/* OUR TEAM */
+
+.our-team-title {
+
+}
+
+
+.our-team-list {
+    list-style: none;
+}
+
+.our-team-item {
+    width: 270px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+} 
+
+.name { 
+    color: #212121;
+    font-weight: 500;
+}
+
+.position {     
+    color: #757575;
+    font-weight: 400;
+}
+
+/* OUR TEAM */
+
+/* ------------------------------------MAIN PAGE------------------------------------ */
+
+
+
+/* ------------------------------------PORTFOLIO------------------------------------ */
+
+/* FILTRES */
+.filtres {
+    list-style: none;
+}
+
+.filtres-items {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filtres-buttons {
+    border-radius: 4px;
+    border-color: #F5F4FA;
+    background-color: #F5F4FA;
+}
+
+.filtres-buttons:hover,
+.filtres-buttons:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+}
+
+/* FILTRES */
+
+
+
+/* PRODUCTS */
+
+.products-list {
+    list-style: none;
+}
+
+.product-list {
+    font-style: normal;
+}
+
+.product-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.product-class {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* PRODUCTS */
+
+/* ------------------------------------PORTFOLIO------------------------------------ */
