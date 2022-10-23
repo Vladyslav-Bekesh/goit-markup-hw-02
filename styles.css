@@ -122,7 +122,7 @@ a {
 
 /* HERO */
 .hero {
-    background-color: var(--hero-footer-bg);
+    background-color: var(--hero-footer-bgc);
 }
 
 .hero-title {
