@@ -1,5 +1,11 @@
 :root{
     --main-color: #ffffff;
+    --main-links-color:#2196F3;
+    --studio-header-color: #000000;
+    --link-description-color:#212121;
+    --adress-benefits-color: #757575;
+    --hero-footer-bgc:#2F303A;
+    --filtres-btn-color:#F5F4FA;
 }
 
 /* ------------------------------------COMMON STYLES------------------------------------ */
@@ -26,11 +32,11 @@ a {
 }
 
 .web {
-    color: #2196F3;
+    color: var(--main-links-color);
 }
 
 .studio-header {
-    color: #000000;
+    color: var(--studio-header-color);
 }
 
 .links-list {
@@ -44,11 +50,11 @@ a {
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color: var(--link-description-color);
 }
 
 .link-item:hover, .link-item:focus {
-    color: #2196F3;
+    color: var(--main-links-color);
 }
 
 .header-adress {
@@ -57,13 +63,13 @@ a {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--adress-benefits-color);
     text-decoration: none;
 }
 
 .header-adress:hover,
 .header-adress:focus {
-    color: #2196F3;
+    color: var(--main-links-color);
 }
 
 /* HEADER */
@@ -81,7 +87,7 @@ a {
     height: 252px;
     left: 0px;
     top: 1628px;
-    background-color: #2F303A;
+    background-color: var(--hero-footer-bgc);
 }
 
 .phisical-adress {
@@ -116,7 +122,7 @@ a {
 
 /* HERO */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-footer-bg);
 }
 
 .hero-title {
@@ -135,7 +141,7 @@ a {
     width: 216px;
     height: 50px;
     border: none;
-    background: #2196F3;
+    background: var(--main-links-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 /* btn txt */
@@ -173,11 +179,11 @@ a {
     font-weight: 700;
     line-height: calc(16/14);
     text-transform: uppercase;
-    color: #212121;}
+    color: var(--link-description-color);}
 
 .benefits {   
     line-height: calc(24/14);   
-    color: #757575;
+    color: var(--adress-benefits-color);
 }
 
 /* BENEFITS */
@@ -212,7 +218,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: var(--link-description-color);
 }
 
 
@@ -230,12 +236,12 @@ a {
 } 
 
 .name { 
-    color: #212121;
+    color: var(--link-description-color);
     font-weight: 500;
 }
 
 .position {     
-    color: #757575;
+    color: var(--adress-benefits-color);
     
 }
 
@@ -258,15 +264,15 @@ a {
     font-size: 16px;
     line-height: calc(26/16);
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--link-description-color);
 }
 
 .filtres-buttons {
     /* btn styles */
     border:none;
     border-radius: 4px;
-    border-color: #F5F4FA;
-    background-color: #F5F4FA;
+    border-color: var(--filtres-btn-color);
+    background-color: var(--filtres-btn-color);
     height: 38px;
     padding: 6px 22px 6px 22px;
     /* btn txt styles */
@@ -276,12 +282,12 @@ a {
     line-height: calc(26/16);    
     text-align: center;
     letter-spacing: 0.03em;  
-    color: #212121;
+    color: var(--link-description-color);
 }
 
 .filtres-buttons:hover,
 .filtres-buttons:focus {
-    background: #2196F3;
+    background: var(--main-links-color)3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--main-color);
 }
@@ -301,14 +307,14 @@ a {
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--link-description-color);
 }
 
 .product-class {   
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--adress-benefits-color);
 }
 
 /* PRODUCTS */
