@@ -176,7 +176,7 @@ a {
 }
 
 .benefits-title {
-    font-weight: 700;
+    font-family: 'Roboto';
     line-height: calc(16/14);
     text-transform: uppercase;
     color: var(--link-description-color);}
